@@ -122,7 +122,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             send_start(bot, update)
     else:
         try:
-            update.effective_message.reply_text("Hey there! I'm alive :3")
+            update.effective_message.reply_text("Heya! PM Me If You Have Any Questions On How To Use Me.")
         except:
             print("Nut")
 
@@ -135,14 +135,14 @@ def send_start(bot, update):
         pass
 
     #chat = update.effective_chat  # type: Optional[Chat] and unused variable
-    text = "Hey there! My name is Haruka Aya - I'm here to help you manage your groups!\n\
-Click Help button to find out more about how to use me to my full potential.\n\n"
+    text = "Hey There! My Name Is *MissLeena* - I'm Here To Help You Manage Your Groups.\n\
+Click Help Button Or Hit /help To Know More About My Full Potential Use!\n\n"
 
-    text += "Join [Haruka Aya Group](https://t.me/HarukaAyaGroup) ( @HarukaAyaGroup ) if you need any support or help\n\n\
-Follow [Haruka Aya](https://t.me/HarukaAya) ( @HarukaAya ) if you want to keep up with the news, updates and bot downtime!\n\n\
-Made with love by @RealAkito\n\nWant to add me to your group? [Click here!](t.me/HarukaAyaBot?startgroup=true)"
+    text += "If You Have Any Questions Or Need Help.. Join [MissLeena Bot Support](https://t.me/MissLeena_Bot_Support).\n\n\
+Made With *Love* And *Maintained* By [This Awesome Person](https://t.me/Unknown_Hacker_X) .\n\n\
+Wanna Add Me To Your Groups? [Click Here!](http://t.me/MissLeena_Bot?startgroup=true)"
 
-    keyboard = [[InlineKeyboardButton(text="📢 Support Group", url="https://t.me/HarukaAyaGroup")]]
+    keyboard = [[InlineKeyboardButton(text="📢 Support Group", url="https://t.me/MissLeena_Bot_Support")]]
     keyboard += [[InlineKeyboardButton(text="🛠 Control panel", callback_data="cntrl_panel_M")]]
     keyboard += [[InlineKeyboardButton(text="🇺🇸 Language", callback_data="set_lang_"), 
         InlineKeyboardButton(text="❔ Help", callback_data="help_back")]]

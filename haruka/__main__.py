@@ -142,8 +142,8 @@ Click Help Button Or Hit /help To Know More About My Full Potential Use!\n\n"
 Made With *Love* And *Maintained* By [This Awesome Person](https://t.me/Unknown_Hacker_X) .\n\n\
 Wanna Add Me To Your Groups? [Click Here!](http://t.me/MissLeena_Bot?startgroup=true)"
 
-    keyboard = [[InlineKeyboardButton(text="📢 Support Group", url="https://t.me/MissLeena_Bot_Support")]]
-    keyboard += [[InlineKeyboardButton(text="🛠 Control panel", callback_data="cntrl_panel_M")]]
+    keyboard = [[InlineKeyboardButton(text="📢 My Updates", url="https://t.me/Unknown_Hacker_005_X")]]
+    keyboard += [[InlineKeyboardButton(text="🛠 Control Panel", callback_data="cntrl_panel_M")]]
     keyboard += [[InlineKeyboardButton(text="🇺🇸 Language", callback_data="set_lang_"), 
         InlineKeyboardButton(text="❔ Help", callback_data="help_back")]]
 
